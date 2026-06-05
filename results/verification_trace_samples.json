@@ -1,0 +1,80 @@
+[
+  {
+    "image": "aigc_01_portrait",
+    "attack": "无攻击",
+    "psnr": 42.22,
+    "ssim": 0.9996,
+    "bit_accuracy": 1.0,
+    "ber": 0.0,
+    "nc": 1.0,
+    "phash_distance": 0,
+    "log_match": "是",
+    "signature_ok": "是",
+    "risk": "高可信来源一致"
+  },
+  {
+    "image": "aigc_01_portrait",
+    "attack": "JPEG Q=50",
+    "psnr": 35.075,
+    "ssim": 0.9985,
+    "bit_accuracy": 0.6094,
+    "ber": 0.3906,
+    "nc": 0.2188,
+    "phash_distance": 0,
+    "log_match": "否",
+    "signature_ok": "否",
+    "risk": "内容相似，但水印可能被破坏或移除"
+  },
+  {
+    "image": "aigc_01_portrait",
+    "attack": "缩放 0.5x",
+    "psnr": 35.965,
+    "ssim": 0.9979,
+    "bit_accuracy": 0.9688,
+    "ber": 0.0312,
+    "nc": 0.9375,
+    "phash_distance": 0,
+    "log_match": "否",
+    "signature_ok": "否",
+    "risk": "内容相似，但水印可能被破坏或移除"
+  },
+  {
+    "image": "aigc_01_portrait",
+    "attack": "裁剪 10%",
+    "psnr": 12.758,
+    "ssim": 0.5153,
+    "bit_accuracy": 0.4531,
+    "ber": 0.5469,
+    "nc": -0.0938,
+    "phash_distance": 18,
+    "log_match": "否",
+    "signature_ok": "否",
+    "risk": "内容变化较大，无法可信溯源"
+  },
+  {
+    "image": "aigc_01_portrait",
+    "attack": "局部遮挡篡改",
+    "psnr": 13.188,
+    "ssim": 0.5983,
+    "bit_accuracy": 1.0,
+    "ber": 0.0,
+    "nc": 1.0,
+    "phash_distance": 22,
+    "log_match": "是",
+    "signature_ok": "是",
+    "risk": "来源记录存在，但内容疑似大幅篡改"
+  },
+  {
+    "image": "aigc_01_portrait",
+    "attack": "日志签名篡改",
+    "psnr": 42.22,
+    "ssim": 0.9996,
+    "bit_accuracy": 1.0,
+    "ber": 0.0,
+    "nc": 1.0,
+    "phash_distance": 0,
+    "log_match": "是",
+    "signature_ok": "否",
+    "risk": "疑似水印伪造或来源冒用"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "platform_id": "AIGC-DEMO",
+  "model_id": "GEN-IMG-v1",
+  "timestamp": "2026-05-31T21:00:00+08:00",
+  "user_hash": "2ffcdf440edb31d6490ce682ba81258e",
+  "image_phash": "59e8f9c19fc06316",
+  "watermark_id": "6f62a9dc27481d18",
+  "signature": "e2d0faef66491ba519f257139b7b6e803cafd292a4c41940c7d24109408b767c"
+}
